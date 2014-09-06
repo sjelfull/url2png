@@ -1,0 +1,7 @@
+{% set attributeString = ' ' %}
+{% if attributes is defined %}
+    {% for attribute,value in attributes %}
+    {% set attributeString = attributeString ~ attribute ~ '=' ~ value ~ ' ' %}
+    {% endfor %}
+{% endif %}
+<img src="{{ src }}"{{ attributeString }}>

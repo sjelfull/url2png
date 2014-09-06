@@ -1,0 +1,21 @@
+{% import '_includes/forms' as forms %}
+
+{{ forms.textField({
+label: "Url2Png API key"|t,
+id: 'apiKey',
+name: 'apiKey',
+instructions: "Your Google Maps API key:"|t,
+value: settings.apiKey,
+autofocus: true,
+errors: settings.getErrors('apiKey')
+}) }}
+
+{{ forms.textField({
+label: "Url2Png API secret"|t,
+id: 'apiSecret',
+name: 'apiSecret',
+instructions: "Your Google Maps API key:"|t,
+value: settings.apiSecret,
+autofocus: true,
+errors: settings.getErrors('apiSecret')
+}) }}
