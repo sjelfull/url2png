@@ -8,11 +8,25 @@ Lets you embed screenshots of webpages via the URL2PNG API.
 * Add the key/secret under URL2PNG settings
 
 ## Usage
+
+### Image embed
 ```twig
 {{ craft.url2png.img({
             url: 'http://buildwithcraft.com',
             width: 500
 }) | raw }}
+```
+
+Remember to include the raw filter. There is no current option to prevent Craft autoescaping the HTML returned from plugin templates in the frontend.
+
+### URL
+```twig
+{% set img = craft.url2png.url({
+        url: 'http://buildwithcraft.com',
+        thumbnail_max_width: 500
+        }) %}
+
+<div style="background-image: url({{ img }}); width: 500px; height: 500px;"></div>
 ```
 
 ## Options

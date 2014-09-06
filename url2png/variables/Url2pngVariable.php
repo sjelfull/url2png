@@ -12,6 +12,11 @@ class Url2pngVariable
         ));
     }
 
+    public function url($settings = array())
+    {
+        return $this->_run($settings);
+    }
+
     private function _run($settings)
     {
         return craft()->url2png->create($settings);
