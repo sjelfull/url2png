@@ -4,7 +4,7 @@ Lets you embed screenshots of webpages via the URL2PNG API.
 ## Installation
 * Place the **url2png** folder inside your **craft/plugins** folder
 * Go to **settings/plugins** and install URL2PNG.
-* Get your API key and secret from [url2png.com](https://www.url2png.com/) (signup with coupon **CRAFT** to get $40 credit.)
+* Get your API key and secret from [url2png.com](https://www.url2png.com/) (signup with promo code **CRAFT** to get $40 credit.)
 * Add the key/secret under URL2PNG settings
 
 ## Usage
