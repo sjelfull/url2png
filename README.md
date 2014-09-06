@@ -29,7 +29,7 @@ Lets you embed screenshots of webpages via the URL2PNG API.
 | custom_css_url           | Fetches a CSS stylesheet and injects it.                             ||
 | say_cheese               | Delay screenshot until ```<div id='url2png-cheese'></div>``` is available. ||
 | ttl                      | Set the TTL or "time to live" value for a screenshot in seconds. Defaults to 2592000 (30 days) ||
-| alt                      | Sets the alt attribute                                               ||
-| class                    | Sets the class attribute                                             ||
-| width                    | Sets the width attribute                                             ||
-| height                   | Sets the height attribute                                            ||
+| alt                      | Sets the img alt attribute                                           ||
+| class                    | Sets the img class attribute                                         ||
+| width                    | Sets the img width attribute                                         ||
+| height                   | Sets the img height attribute                                        ||
