@@ -49,3 +49,7 @@ Remember to include the raw filter. There is no current option to prevent Craft 
 | class                    | Sets the img class attribute                                         ||
 | width                    | Sets the img width attribute                                         ||
 | height                   | Sets the img height attribute                                        ||
+
+## Credits
+
+Icon: Camera by Alfa Design from the Noun Project
