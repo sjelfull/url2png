@@ -1,4 +1,6 @@
 ## Craft URL2PNG
+![Logo](url2png/resources/logo.png)
+
 Lets you embed screenshots of webpages via the URL2PNG API.
 
 ## Installation
